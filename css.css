@@ -1,0 +1,49 @@
+body{
+    background-image: url(    'https://cdn.pixabay.com/photo/2017/06/14/08/20/map-of-the-world-2401458_1280.jpg' );
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+#map {
+    width: 300px;
+    height: 300px;
+}
+#countryCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+header {
+    background-color: rgb(66, 121, 147);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 25px 15px 16px rgba(0, 0, 0, 0.12);
+  }
+  /* Define the button style */
+.btn_border {
+    /* Set the background color using RGB values */
+    background-color: rgb(66, 121, 147);
+  
+    /* Add some padding and border for a nice look */
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+  
+    /* Add some text styling */
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+  
+    /* Add a hover effect to make the button interactive */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Define the hover effect */
+  .btn_border:hover {
+    background-color: rgb(46, 91, 117); /* Adjust the hover color if needed */
+  }
+ 
